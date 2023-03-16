@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.12)
 set(PATCH_VERSION "1" CACHE INTERNAL "Patch version")
 set(PROJECT_VERSION 0.0.${PATCH_VERSION})
 
-project(fashion_log_reg CXX)
+project(fashion_log_reg VERSION ${PROJECT_VERSION})
 
 add_executable(fashion_log_reg main.cpp)
 
