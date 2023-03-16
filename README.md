@@ -1,2 +1,2 @@
-# 13_fashion_log_reg
- Calculates the accuracy of image recognition using a logistic regression model
+# Usage:
+fashion_log_reg test.csv logreg_coef.txt
